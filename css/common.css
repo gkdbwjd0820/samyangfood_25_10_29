@@ -4,3 +4,9 @@
   font-style: normal;
 }
 
+
+.section_2,
+.section_3,
+.section_4{
+  padding-top: 80px;
+}
