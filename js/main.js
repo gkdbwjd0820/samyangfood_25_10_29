@@ -8,5 +8,13 @@ $(document).ready(function(){
         clickable: true,
       },
     });
+    var swiper = new Swiper(".sec_5", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
   
 });

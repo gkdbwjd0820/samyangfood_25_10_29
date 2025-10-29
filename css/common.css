@@ -7,6 +7,17 @@
 
 .section_2,
 .section_3,
-.section_4{
+.section_4,
+.section_5{
   padding-top: 80px;
+}
+
+
+.section_2 h3,
+.section_3 h3,
+.section_5 h3{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 28px;
 }

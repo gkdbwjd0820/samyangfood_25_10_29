@@ -100,14 +100,6 @@ video{
 /* sec_1_2_ing */
 
 
-.section_2 h3,
-.section_3 h3{
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -1px;
-    line-height: 28px;
-}
-
 /* sec_2_ing */
 
 .sec_3_imgs{
@@ -143,8 +135,7 @@ video{
         color: #ffffff;
 }
 
-
-
+/* sec_3_end */
 
 .sec_4_img{
     position: relative;
@@ -185,4 +176,32 @@ video{
 }
 .custmor p{
     color: #1d1d1d;
+}
+
+/* sec_4_end */
+
+
+
+.sec_5{
+    margin-top: 15px;
+}
+
+.sec_5 .swiper-slide {
+    width: 90px;
+    height: 35px;
+    border: 1px solid #bebebe;
+    border-radius: 30px;
+     text-align: center;
+     line-height: 32px;
+}
+
+.sec_5 .swiper-slide a{
+    font-size: 12px;
+    color: #bebebe;
+    font-weight: 500;
+   
+}
+
+.faq{
+    margin-top: 50px;
 }
