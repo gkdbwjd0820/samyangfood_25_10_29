@@ -1,10 +1,21 @@
 @import url(reset.css);
 @import url(common.css);
 
-.wrap {
+.mobile_wrap {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.wrap{
+  background-color: #f6f6f6;
+}
+
+.wrap img{
+  /* width: 100%; */
+  position: fixed;
 }
 
 header {
@@ -48,11 +59,44 @@ header {
   margin-left: 8px;
 }
 
+@media screen and (max-width: 1920px){
+  
+  .logo {
+    display: none;
+  }
+
+  .web_logo img{
+    width: 150px;
+  }
+
+  .header_icons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .search{
+    margin-right: 10px;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+
+  .logo {
+    display: block;
+  }
+
+  .web_logo img{
+    display: none;
+  }
+
+}
+
 /* header end */
 
 .section_1 {
   padding-top: 60px;
-  /* margin: 0 20px; */
 }
 
 .tangle {
@@ -423,4 +467,20 @@ footer {
   color: #ffffff;
   opacity: 0.5;
   padding-top: 80px;
+}
+
+@media screen and (max-width: 1920px){
+
+  footer{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+
+  footer{
+    display: block;
+  }
+
 }
