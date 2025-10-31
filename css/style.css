@@ -109,14 +109,19 @@
 }
 
 .familysite{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 1px solid #bebebe;
   border-radius: 10px;
 }
 
-.f
+.site_box{
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+}
+
+
 
 
 /* 모바일부분 */
