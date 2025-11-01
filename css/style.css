@@ -61,6 +61,7 @@
 .web_menu h4{
   font-size: 18px;
   font-weight: 700;
+  letter-spacing: -2px;
   margin: 0;
 }
 
@@ -581,7 +582,7 @@ video {
   border-radius: 26px;
   text-align: center;
   line-height: 29px;
-  padding: 1.5px 1px;
+  padding: 1.5px 15px;
   transition: 0.5s;
 }
 
