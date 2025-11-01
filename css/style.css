@@ -102,15 +102,18 @@
 
 .sub_1{
   color: #bebebe;
+  font-weight: 600;
 }
 
 .sub_2{
   margin-left: 2px;
+  font-weight: 600;
 }
 
 .familysite{
   border: 1px solid #bebebe;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .site_box{
@@ -121,7 +124,44 @@
   padding: 12px 15px;
 }
 
+/* 큐얼부분시작 */
 
+.qr_wrap{
+  position: absolute;
+  top: 780px;
+  right: 450px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #e8e8e8;
+  padding: 10px 12px;
+  border-radius: 15px;
+}
+
+.qr_title{
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.qr_title h3{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -1px;
+}
+
+.qr_title p{
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #a6a6a6;
+}
+
+.qr_img_wrap{
+  display: flex;
+  gap: 6px;
+}
 
 
 /* 모바일부분 */
@@ -213,6 +253,52 @@ header {
 }
 
 /* header end */
+
+.navigation_wrap{
+  position: fixed;
+  top: 764px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  z-index: 100;
+  padding: 16px 32px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  display: none;
+}
+
+.navigation_menu{
+  display: flex;
+  gap: 28px;
+}
+
+.na_con{
+  width: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+
+.na_con p{
+  
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.na_con a:hover{
+  filter: invert(48%) sepia(80%) saturate(2835%) hue-rotate(8deg) brightness(100%) contrast(101%);
+}
+
+
+@media screen and (max-width: 900px){
+
+  .navigation_wrap{
+    display: block;
+  }
+
+}
+
 
 .section_1 {
   padding-top: 60px;
@@ -507,6 +593,7 @@ video {
 
 .faq {
   margin-top: 50px;
+  padding: 0 20px;
 }
 
 .con_5 {

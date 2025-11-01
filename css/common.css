@@ -16,13 +16,18 @@ body {
 }
 
 .section_1,
-.section_1_2,
-.section_1_2_food,
-.section_2,
+.sec2_title,
 .section_3,
 .section_4,
-.section_5 {
+.sec5_title {
   padding: 80px 20px 0;
+}
+
+.section_1_2,
+.section_1_2_food,
+.sec_2_con_wrap,
+.sec_5_sub{
+  padding-left: 20px;
 }
 
 .section_2 h3,
@@ -33,3 +38,4 @@ body {
   letter-spacing: -1px;
   line-height: 28px;
 }
+
