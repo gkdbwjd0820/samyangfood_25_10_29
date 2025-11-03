@@ -277,9 +277,10 @@ header {
 
 /* header end */
 
+/* 내비게이션시작 */
 .navigation_wrap {
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -495,6 +496,7 @@ video {
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .btn_2 {
