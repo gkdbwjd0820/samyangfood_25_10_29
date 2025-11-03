@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #fff6f6;
+  background-color: #fffcfb;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
   position: relative;
@@ -26,7 +26,7 @@ body {
 .section_1_2,
 .section_1_2_food,
 .sec_2_con_wrap,
-.sec_5_sub{
+.sec_5_sub {
   padding-left: 20px;
 }
 
@@ -38,4 +38,3 @@ body {
   letter-spacing: -1px;
   line-height: 28px;
 }
-

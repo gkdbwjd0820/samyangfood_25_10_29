@@ -28,15 +28,14 @@ $(document).ready(function () {
 
   var swiper = new Swiper(".sec_5", {
     slidesPerView: 3.8,
-    spaceBetween: 8,
+    spaceBetween: 0,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
   });
 
-
- // 모든 faq 영역 안의 plus, minus 아이콘 선택
+  // 모든 faq 영역 안의 plus, minus 아이콘 선택
   const plusIcons = document.querySelectorAll(".plus");
   const minusIcons = document.querySelectorAll(".minus");
 
