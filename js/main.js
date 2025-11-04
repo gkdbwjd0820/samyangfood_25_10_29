@@ -9,7 +9,7 @@ $(document).ready(function () {
   });
 
   var swiper = new Swiper(".sec_1_2_food", {
-    slidesPerView: 1.8,
+    slidesPerView: 2.5,
     spaceBetween: 20,
     pagination: {
       el: ".swiper-pagination",
