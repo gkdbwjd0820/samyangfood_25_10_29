@@ -62,4 +62,20 @@ $(document).ready(function () {
       plus.style.display = "block";
     });
   });
+
+  // 스크롤 부분 (아래에서 위로)
+
+  // $(window).scroll(function () {
+  //   $(".top_btn").click(function () {
+  //     $("body,html").animate({
+  //       scrollTop: 0,
+  //     });
+  //   });
+
+  //   $('menu_1').click.(function(){
+  //     $("body,html").animate({
+  //       scrollTop: 100,
+  //     });
+  //   });
+  // });
 });
